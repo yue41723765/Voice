@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:circleprogress="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/custom_recycler"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v7.widget.RecyclerView>
+
+    <com.chuangying.taohui.voice.view.custom.CircleProgress
+        android:id="@+id/progress"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        circleprogress:color1="@android:color/holo_orange_light"
+        circleprogress:color2="@android:color/holo_orange_dark"
+        circleprogress:color3="@android:color/holo_blue_light"
+        />
+</RelativeLayout>

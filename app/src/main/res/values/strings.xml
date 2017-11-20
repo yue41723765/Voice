@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Voice</string>
+    <string name="all">ALL</string>
+    <string name="custom">CUSTOM</string>
+</resources>
